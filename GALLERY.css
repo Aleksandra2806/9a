@@ -1,0 +1,15 @@
+a {
+    display: block;
+    padding-bottom: 15px;
+}
+iframe,
+video {
+    width: 560px;
+    height: 315px;
+}
+@media all and (max-width: 576px) {
+    iframe,
+    video {
+        width: 100%;
+    }
+}
